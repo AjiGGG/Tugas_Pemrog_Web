@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tambah data</title>
+    </head>
+    <body>
+        <header><h2>Tambah Data Siswa</h2></header>
+        <br>
+        <p4>Isikan semua data dengan benar. Lalu tekan simpan</p4>
+        <br>
+
+        <form action = "login.php" method = "POST">
+            <table>
+            <tr>
+                <td>Nama: </td>
+                <td><input type = "text"></td>
+            </tr>
+            <tr>
+                <td>Kota Lahir: </td>
+                <td><select>
+                    <option>Pilih kota</option>
+                    <option>Surabaya</option>
+                    <option>Malang</option>
+                    <option>Sidoarjo</option>
+                    <option>Mojokerto</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir: </td>
+                <td><input type = "date"></td>
+            </tr>
+            <tr>
+                <td>Agama: </td>
+                <td><input type = "radio" name = "agama" value = Islam>Islam</td>
+                <td><input type = "radio" name = "agama" value = Kristen>Kristen</td>
+                <td><input type = "radio" name = "agama" value = Katolik>Katolik</td>
+                <td><input type = "radio" name = "agama" value = Hindu>Hindu</td>
+                <td><input type = "radio" name = "agama" value = Konghucu>Konghucu</td>
+            </tr>
+            </table>
+        </form>
+
+    </body>
+</html>
